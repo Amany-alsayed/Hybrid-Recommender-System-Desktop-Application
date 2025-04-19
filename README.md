@@ -24,8 +24,8 @@ The goal is to overcome the limitations of individual methods, such as the cold 
 - [Environment Preparation](#environment-preparation)
   - [Using Python Virtual Environment (venv)](#using-python-virtual-environment-venv)
   - [Using Conda](#using-conda)
-- [Dependencies](#dependencies)
 - [Usage](#usage)
+- [Dependencies](#dependencies)
 - [Contributing](#contributing)
   
   
