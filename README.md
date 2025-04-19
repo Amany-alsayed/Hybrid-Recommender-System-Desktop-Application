@@ -95,6 +95,10 @@ The primary dependencies for this project are:
 - **scikit-surprise**: For building and analyzing recommender systems.
 - **NumPy**, **pandas**: For data manipulation and numerical computing.
 - **scikit-learn**: For machine learning algorithms.
+- **FastAPI:** For building high-performance web APIs.
+- **Uvicorn:** ASGI server for running FastAPI applications.
+- **Pydantic:** For data validation and settings management.
+- **Requests:** For making HTTP requests.
 
 ## 🙋‍♂️ Contributing
 
