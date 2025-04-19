@@ -158,7 +158,7 @@ The primary dependencies for this project are:
 
 ## Usage
 
-After setting up your environment, you can run your main application as follows:
+After setting up your environment, you can run your application as follows:
 
 ```bash
 python server.py
