@@ -27,7 +27,7 @@ movies = pd.read_csv("./data/ml-latest-small/movies.csv")
 
 # Get Final Predictions
 try:
-    prediction_matrix = load_user_movie_matrix(r"D:\ITI\ITI _Content _AI&ML_Track\Recommender Systems\Hybrid-Recommender-System-Desktop-Based-Application - Copy\Hybrid-Recommender-System\output_predictions\hybrid_final_no_userid.csv")
+    prediction_matrix = load_user_movie_matrix(r"./output_predictions/hybrid_final_no_userid.csv")
 
 except Exception as e:
     print("Failed to load predictions matrix:", e)
