@@ -15,6 +15,19 @@ The goal is to overcome the limitations of individual methods, such as the cold 
 
 - Surprise library for implementing collaborative filtering algorithms and matrix factorization models.
 
+
+## Table of Contents
+- [Project Overview](#project-overview)
+- [How the Hybrid Approach Works](#hybrid-approach)
+- [Why a Hybrid Approach?](#hybrid-approach-2)
+- [Model Weights](#model-weights)
+- [Environment Preparation](#environment-preparation)
+  - [Using Python Virtual Environment (venv)](#using-python-virtual-environment-venv)
+  - [Using Conda](#using-conda)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [Contributing](#contributing)
+  
   
 ## 🎯 Project Overview
 
