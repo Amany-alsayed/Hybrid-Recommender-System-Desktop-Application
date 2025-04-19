@@ -87,14 +87,66 @@ Each model contributes **0.25** to the final prediction:
 - **Content-Based Filtering**: Uses metadata like genre, year, and description.
 - **Matrix Factorization (SVD)**: Leverages matrix factorization for better recommendation.
 
+
+## 🌍 Environment Preparation
+
+To ensure that all dependencies are installed correctly, follow one of the methods below to set up your environment.
+
+### Using Python Virtual Environment (venv)
+
+1. **Create a virtual environment:**
+  ```bash
+  python3 -m venv myenv
+  ```
+2. **Activate the virtual environment:**
+  - **macOS/Linux:**
+    ```bash
+    source myenv/bin/activate
+    ```
+  - **Windows:**
+    ```bash
+    myenv\Scripts\activate
+    ```
+3. **Upgrade pip and install dependencies:**
+  ```bash
+  pip install --upgrade pip
+  pip install -r requirements.txt
+  ```
+
+### Using Conda
+
+1. **Create a Conda environment:**
+  ```bash
+  conda create --name myenv python=3.10
+  ```
+2. **Activate the environment:**
+  ```bash
+  conda activate myenv
+  ```
+3. **Install packages:**
+  ```bash
+  conda install numpy pandas scikit-learn matplotlib seaborn
+  conda install -c conda-forge pyqt
+  pip install scikit-surprise fastapi uvicorn pydantic requests
+  ```
+## 🕹️ Usage
+
+ After setting up your environment, you can run your application as follows:
+```bash
+python server.py
+ ```
+ ```bash
+ python client.py
+ ```
+
 ## 📦 Dependencies
 
 The primary dependencies for this project are:
-
-- **PyQt5**: For building the GUI.
-- **scikit-surprise**: For building and analyzing recommender systems.
-- **NumPy**, **pandas**: For data manipulation and numerical computing.
-- **scikit-learn**: For machine learning algorithms.
+- **PyQt5:** For building graphical user interfaces.
+- **scikit-surprise:** A library for building and analyzing recommender systems.
+- **numpy:** For numerical computing.
+- **pandas:** For data manipulation and analysis.
+- **scikit-learn:** For machine learning algorithms.
 - **FastAPI:** For building high-performance web APIs.
 - **Uvicorn:** ASGI server for running FastAPI applications.
 - **Pydantic:** For data validation and settings management.
